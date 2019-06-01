@@ -1,0 +1,15 @@
+.page-category {
+    padding-top: 50px;
+    .cate {
+        &-name, &-image {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &-name {
+            font-size: 14px;
+        }
+        &-image {
+            width: .6rem;
+        }
+    }
+}

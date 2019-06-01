@@ -1,0 +1,64 @@
+.page-cart {
+    padding: 46px 16px 2rem;
+    .van-card__img {
+        width: 100%;
+        height: 100%;
+    }
+    .btn-orange {
+        color: #f60;
+        border-color: #f60;
+    }
+    .van-submit-bar {
+        bottom: 50px;
+    }
+}
+.card-goods {
+    &__item {
+        position: relative;
+        margin-bottom: 16px;
+        .van-checkbox__input {
+            top: 50%;
+            left: 15px;
+            margin-top: -10px;
+            position: absolute;
+        }
+        .van-checkbox__label {
+            margin: 0;
+            width: 100%;
+            padding-left: 35px;
+            box-sizing: border-box;
+        }
+        .van-card__price {
+            color: #f44;
+        }
+        .van-card__title {
+            font-size: 14px;
+        }
+        .van-card__desc {
+            -webkit-line-clamp: 2;
+        }
+    }
+}
+
+.van-submit-bar {
+    &__price {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    &__price-text {
+        white-space: nowrap;
+        font-size: 14px !important;
+    }
+    &__bar {
+        height: 40px !important;
+    }
+    .van-checkbox {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        &__label {
+            font-size: 12px;
+        }
+    }
+}

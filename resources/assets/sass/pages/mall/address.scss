@@ -1,0 +1,63 @@
+#uc-address-container {
+  margin: 10px 0;
+  .uc-address-part {
+    background-color: #fff;
+    margin-bottom: 10px;
+    &.defaulted-address {
+      border-top: 1px solid #09bb07;
+      border-bottom: 1px solid #09bb07;
+    }
+    .add-address-btn {
+      color: #09bb07;
+      text-decoration: none;
+    }
+    select {
+      display: block;
+      width: 100%;
+      padding: .5rem .75rem;
+      font-size: 1rem;
+      line-height: 1.25;
+      color: #55595c;
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, .15);
+      border-radius: .25rem;
+    }
+    // reset mint-ui
+    .mint-switch-input:checked + .mint-switch-core.mint-switch-core {
+      border-color: #09bb07;
+      background-color: #09bb07;
+    }
+  }
+}
+
+.save-address-btn {
+  width: 80%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #09bb07;
+  border-radius: 8px;
+}
+
+.edit-address-btn-group {
+  width: 100%;
+  text-align: center;
+  .delete-address-btn, .edit-address-btn {
+    display: inline-block;
+    min-width: 120px;
+    min-height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .delete-address-btn {
+    background-color: #ef4f4f;
+  }
+  .edit-address-btn {
+    background-color: #09bb07;
+  }
+}
+

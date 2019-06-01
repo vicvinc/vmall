@@ -1,0 +1,32 @@
+.page-order {
+  padding: 46px 0 150px;
+  font-size: 14px;
+  .van-col {
+    margin-bottom: 16px;
+  }
+  .order-header {
+    li:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+  .order-info {
+    float: right;
+  }
+  .van-submit-bar {
+    bottom: 50px;
+  }
+}
+
+.order-card {
+  padding: 16px;
+  background: #fff;
+}
+
+.order-goods {
+  padding: 16px 16px 0;
+  margin-bottom: -16px !important;
+}
+
+.order-list {
+  // padding: 0 16px;
+}

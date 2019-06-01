@@ -1,0 +1,29 @@
+//后台样式
+@import './pages/admin/global.scss';
+@import './pages/admin/base.scss';
+@import './pages/admin/sidebar.scss';
+@import './pages/admin/table.scss';
+@import './pages/admin/dnd.scss';
+
+.img-thumbnail {
+  max-width: 200px;
+  height: 100px;
+}
+
+.tree-container {
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+.form-small-text {
+  font-size: 10px;
+  textarea {
+    font-size: 10px;
+    color:gray;
+    &#editor{
+      width: 100%;
+      min-height:300px;
+    }
+  }
+
+}

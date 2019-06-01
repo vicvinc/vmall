@@ -1,0 +1,23 @@
+// 左侧菜单导航样式
+.sidenav-second-level {
+    a {
+        color: #333;
+    }
+    .list-group-item {
+        border-radius: 0 !important;
+        // padding-left: 4rem;
+    }
+    .list-group-item.active > * {
+        color: #fff;
+    }
+}
+
+#side-menu {
+    .admin-avatar {
+        font-size: 48px;
+        color: #f5f5f5;
+    }
+    .profile-element {
+        text-align: center;
+    }
+}

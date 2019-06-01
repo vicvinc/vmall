@@ -1,0 +1,90 @@
+// CMS 基本变量
+$defaultFontColor: #333;
+$whiteFontColor: #fff;
+$baseColor: #007bff;
+$baseBorderColor: #e7e7eb !default;
+
+$color-blue:    #007bff;
+$color-black:   #333;
+$color-white:   #fff;
+
+// scrollbar样式
+::-webkit-scrollbar {
+    padding-left: 1px;
+    background-color: #eee;
+    overflow: visible;
+    width: 7px;
+    height: 7px;
+    margin-top: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #34495e;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    min-height: 15px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border: 1px solid #fff;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+// 去除浏览器表单焦点outline样式
+input,
+select,
+textarea,
+button:focus {
+    outline: 0 none !important;
+}
+
+// 单行文字溢出时出现省略号，需设定宽度
+.fn-text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+body {
+    font-family: 'Microsoft YaHei', 'Hiragino Sans GB', Arial, Helvetica, sans-serif;
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+#scriptTag {
+    display: none;
+}
+
+.__hide__ {
+    display: none;
+}
+
+.__show__ {
+    display: block;
+}
+
+.no-record {
+    text-align: center;
+    .icon {
+        font-size: 120px;
+    }
+}

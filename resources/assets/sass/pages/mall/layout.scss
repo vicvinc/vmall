@@ -1,0 +1,19 @@
+.page-container {
+    padding: 50px 16px 48px;
+    .section-wrap {
+        padding: 0;
+    }
+}
+
+.empty-container {
+    width: 100%;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .empty-image {
+        width: 2rem;
+        height: 2rem;
+        background: url('/images/icon/empty.svg') center / cover no-repeat;
+    }
+}

@@ -1,0 +1,148 @@
+.section-wrap {
+    padding: 16px 16px 0;
+}
+
+.home-wrap {
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+// carousel style
+.carousel-wrap {
+    margin-bottom: 16px;
+    height: 8rem;
+    .swipe-img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+.van-swipe {
+    height: 100%;
+}
+.plate-wrap {
+    .plate-title {
+        color: $color-black;
+        font-size: 14px;
+    }
+    .plate-card {
+        padding-right: 16px;
+    }
+    .plate-img {
+        display: block;
+        width: 100%;
+        height: 2.5rem;
+        margin-bottom: 10px;
+    }
+}
+
+.goods-wrap {
+    font-size: 14px;
+    // section goods style
+    .card-goods {
+        display: block;
+        margin-bottom: 16px;
+    }
+    .detail {
+        padding: 8px;
+        background: $color-white;
+    }
+    .info {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 1.4;
+        color: $color-red;
+    }
+    .van-card {
+        font-size: 14px;
+    }
+    .van-card__title {
+        font-size: 14px;
+    }
+    .van-card__img {
+        width: 100%;
+        height: 100%;
+    }
+    .van-card__footer {
+        left: 115px;
+        font-size: 12px;
+    }
+    .act-price {
+        margin: 0 0 0 auto;
+    }
+    .description {
+        font-size: 12px;
+        line-height: 1.5;
+        color: $color-black;
+        word-break: break-all;
+        font-size: 12px;
+        line-height: 16px;
+        height: 32px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .thumbnail {
+        display: block;
+        width: 100%;
+        height: 2.5rem;
+    }
+    .btn-purchase {
+        float: right;
+        border: 1px solid $color-red;
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 0 4px;
+    }
+    .act-price {
+        color: $color-red;
+    }
+    .price {
+        color: $color-gray-disabled;
+        font-size: 12px;
+        text-decoration: line-through;
+    }
+    .no-more {
+        position: relative;
+        margin-top: 16px;
+        font-size: 12px;
+        text-align: center;
+        em {
+            position: relative;
+            padding: 0 8px;
+            background: $color-gray;
+        }
+        &::after {
+            content: '';
+            display: block;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            border: 1px solid $color-white;
+            z-index: -1;
+        }
+    }
+}
+
+// section topic style
+.topic-wrap {
+    font-size: 14px;
+    text-align: center;
+    .topic-icon {
+        display: block;
+        margin: 0 auto;
+        width: 1rem;
+        height: 1rem;
+        padding: .1rem;
+        margin-bottom: 8px;
+    }
+    .van-icon {
+      display: block;
+      font-size: 24px;
+    }
+}
